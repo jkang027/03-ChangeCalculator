@@ -60,10 +60,10 @@ namespace _03_ChangeCalculator
                 double tens = Math.Floor(change % hundredVal % fiftyVal % twentyVal / tenVal);
                 double fives = Math.Floor(change % hundredVal % fiftyVal % twentyVal % tenVal / fiveVal);
                 double ones = Math.Floor(change % hundredVal % fiftyVal % twentyVal % tenVal % fiveVal / oneVal);
-                double quarters = Math.Floor(change % oneVal / quartVal);
-                double dimes = Math.Floor(change % oneVal % quartVal / dimeVal);
-                double nickels = Math.Floor(change % oneVal % quartVal % dimeVal / nickVal);
-                double pennies = Math.Floor(change % oneVal % quartVal % dimeVal % nickVal / pennyVal);
+                double quarters = Math.Floor(change % hundredVal % fiftyVal % twentyVal % tenVal % fiveVal % oneVal / quartVal);
+                double dimes = Math.Floor(change % hundredVal % fiftyVal % twentyVal % tenVal % fiveVal % oneVal % quartVal / dimeVal);
+                double nickels = Math.Floor(change % hundredVal % fiftyVal % twentyVal % tenVal % fiveVal % oneVal % quartVal % dimeVal / nickVal);
+                double pennies = Math.Round(change % hundredVal % fiftyVal % twentyVal % tenVal % fiveVal % oneVal % quartVal % dimeVal % nickVal / pennyVal);
 
                 Console.WriteLine("Hundreds: " + hundreds);
                 Console.WriteLine("Fiftys: " + fiftys);
@@ -78,7 +78,7 @@ namespace _03_ChangeCalculator
             }
             else
             {
-                Console.WriteLine("The customer still owes you $" + change * -1);
+                Console.WriteLine("The customer still owes you $" + change * -1 + ".");
             }
 
             Console.WriteLine("Hit enter to close.");
