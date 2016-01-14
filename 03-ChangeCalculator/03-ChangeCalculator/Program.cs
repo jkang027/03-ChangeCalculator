@@ -31,10 +31,13 @@ namespace _03_ChangeCalculator
 
         static void Main(string[] args)
         {
+            //Get the item's cost and amount customer paid.
             double itemCost = GetDoubleFromUser("How much does the item cost?");
             double customerPaid = GetDoubleFromUser("How much has the customer given you?");
+            //Calculate amount for change.
             double change = Math.Round(customerPaid - itemCost, 2, MidpointRounding.ToEven);
 
+            //Values for monetary denominations.
             double hundredVal = 100.00;
             double fiftyVal = 50.00;
             double twentyVal = 20.00;
@@ -46,6 +49,7 @@ namespace _03_ChangeCalculator
             double nickVal = 0.05;
             double pennyVal = 0.01;
 
+            //If/else statement to determine whether change is needed or more money is needed from the customer.
             if (change >= 0)
             {
                 Console.WriteLine("The customer's change is: $" + change);
@@ -76,6 +80,7 @@ namespace _03_ChangeCalculator
             {
                 Console.WriteLine("The customer still owes you $" + change * -1);
             }
+
             Console.WriteLine("Hit enter to close.");
             Console.ReadLine();
         }
