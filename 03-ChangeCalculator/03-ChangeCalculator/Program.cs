@@ -24,7 +24,7 @@ namespace _03_ChangeCalculator
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Your input was not a dollar amount.");
+                    Console.WriteLine("Your input was not a valid dollar amount.");
                 }
             }
         }
