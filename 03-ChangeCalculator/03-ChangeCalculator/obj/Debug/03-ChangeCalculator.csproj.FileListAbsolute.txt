@@ -1,0 +1,6 @@
+E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-ChangeCalculator.exe.config
+E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-ChangeCalculator.exe
+E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-ChangeCalculator.pdb
+E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.csprojResolveAssemblyReference.cache
+E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.exe
+E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.pdb
