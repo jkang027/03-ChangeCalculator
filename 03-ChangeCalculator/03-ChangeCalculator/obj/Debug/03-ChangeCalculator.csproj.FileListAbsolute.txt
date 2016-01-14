@@ -4,3 +4,9 @@ E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-
 E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.csprojResolveAssemblyReference.cache
 E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.exe
 E:\Dev\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.pdb
+C:\dev\origin\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-ChangeCalculator.exe.config
+C:\dev\origin\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.exe
+C:\dev\origin\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.pdb
+C:\dev\origin\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-ChangeCalculator.exe
+C:\dev\origin\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\bin\Debug\03-ChangeCalculator.pdb
+C:\dev\origin\03-ChangeCalculator\03-ChangeCalculator\03-ChangeCalculator\obj\Debug\03-ChangeCalculator.csprojResolveAssemblyReference.cache
